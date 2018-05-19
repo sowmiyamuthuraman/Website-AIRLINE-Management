@@ -1,0 +1,115 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style1.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<style>
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+     z-index:597; float: right; 
+
+}
+.dropbtn {
+    background-color: inherit;
+    color: #A1C6D9;
+
+    padding: inherit;
+    font-size: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1F618D;
+    min-width: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+</style></head>
+
+
+</head>
+
+
+<div class="wrapper row1" style="background-color:#1F618D">
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+      <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left" >
+      <h1><a href="index.html"><i style="color:#A1C6D9">flightZ</i></a></h1>
+    </div>
+  
+    
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <li class="active"><a href="home.html">HOME</a></li>
+        <li class="active"><a href="flight.html">FLIGHT</a></li>
+        <li class="active"><div class="dropdown">
+  <button class="dropbtn"><b>LOGIN</b></button>
+  <div class="dropdown-content" >
+    <a href="others.html" style="padding-bottom: 2px;padding-top: 2px;">USERS</a>
+    <a href="login.html" style="padding-bottom: 2px;padding-top: 2px;">EMPLOYEE</a>
+     </div>
+</li>
+       <!-- <li class="active"><a href="register.php">REGISTER</a></li>-->
+        <li class="active"><a href="admin.html">FEEDBACK</a></li>
+        </ul>
+        </nav>
+        </header>
+        </div>
+        
+
+
+<body>
+<div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">USERS</label>
+	
+
+                              
+		<div class="login-form">
+			<div class="sign-in-htm">
+<form action="check_user-pass1.php" method="POST">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input" name="user_name">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password" name="password">
+				</div>
+				
+				<div class="group">
+					<input type="submit" class="button" value="Let me in..">
+				</div><h3><pre> Not yet registered?? <a href="registering.php"><i style="color:#A1C6D9">REGISTER</i></a></pre></h3>
+				</form>
+                </div>
+                </div>
+                </div>
+                </div>
+                </body></html>

@@ -1,0 +1,85 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style1.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+</head>
+
+
+<div class="wrapper row1" style="background-color:#1F618D">
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+      <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left" >
+      <h1><a href="index.html"><i style="color:#A1C6D9">flightZ</i></a></h1>
+    </div>
+  
+    
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+        <li class="active"><a href="home.html">HOME</a></li>
+        <li class="active"><a href="flight.html">FLIGHT</a></li>
+        <li class="active"><a href="login.html">LOGIN</a></li>
+       <!-- <li class="active"><a href="register.php">REGISTER</a></li>-->
+        <li class="active"><a href="admin.html">FEEDBACK</a></li>
+        </ul>
+        </nav>
+        </header>
+        </div>
+        
+
+
+<body>
+<div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">USERS</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">ADMIN</label>
+                              
+		<div class="login-form">
+			<div class="sign-in-htm">
+<form action="check_user-pass1.php" method="POST">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input" name="user_name">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password" name="password">
+				</div>
+				
+				<div class="group">
+					<input type="submit" class="button" value="Let me in..">
+				</div><h3><pre> Not yet registered?? <a href="registering.php"><i style="color:#A1C6D9">REGISTER</i></a></pre></h3>
+				</form>
+				
+			</div>
+<form action="checkadmin.php" method="POST">
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input" name="user_name">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" name="password" class="input" data-type="password">
+				</div>
+				
+				
+				<div class="group">
+					<input type="submit" class="button" value="Let me in..">
+				</div>
+				<h3><pre> If EMPLOYEE LOGIN <a href="emp.php"><i style="color:#A1C6D9">HERE</i></a></pre></h3>
+				
+			</div>
+		</div>
+	</div></form>
+</div>
+</body>
+</html>
