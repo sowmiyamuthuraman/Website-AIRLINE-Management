@@ -1,16 +1,25 @@
-"#AIRLINERESERVATION SYSTEM"
-   A Webapplication developed using PHP and MYSQL.
+"# Website-AIRLINE-Management" 
+  
+
+  Website Developed using PHP ,MYSQL and XAMMP server
+  
+A website which provides interface for customers ,employee and admin.
+
+CUSTOMER MODULE:
+           Search for availability of ticket
+           Book ticket
+           Download ticket
+           View their history of travel
+EMPLOYEE MODULE:
+           Employee dashboard 
+           Employee work schedule and a performance graph
+           Leave apply module
+ADMIN MODULE:
+           Manage Flight
+           Manage Employee
+           Manage discount info
+           Newsfeed
+           Customer details info
+     
 
 
-        A interactive system which contains modules
-               Booking and downloading of tickets.
-               Admin panel
-                   1.manage flights
-                   2.manage employee
-                   3.leave management
-                   4.discount management
-               Employee module                                                              
-      
-"AIR_LINE"
-"AIR_LINE RESERVATION"
-"AIR-LINE RESERVATION"

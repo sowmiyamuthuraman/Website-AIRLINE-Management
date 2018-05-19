@@ -1,7 +1,7 @@
 <?php 
 include("mpdf.php");
 $mpdf=new mPDF('win-1252','A4','','',15,10,16,10,10,10);//A4 page in portrait for landscape add -L.
-$mpdf->SetHeader('<div><img src="glosys.jpg" width=40px height=50px style="float:left" alt="air"><i style="float:left"> Air-Lines</i></div>');
+$mpdf->SetHeader('<div><img src="ss.jpg" width=40px height=50px style="float:left" alt="air"><i style="float:left"> Air-Lines</i></div>');
 $mpdf->setFooter('{PAGENO}');// Giving page number to your footer.
 $mpdf->useOnlyCoreFonts = true;    // false is default
 $mpdf->SetDisplayMode('fullpage');
