@@ -19,7 +19,7 @@ ADMIN MODULE:
            Manage Employee
            Manage discount info
            Newsfeed
-           Customer details information
+           Customer details info
      
 
 
